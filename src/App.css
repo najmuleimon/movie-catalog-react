@@ -1,0 +1,60 @@
+.nav-link.active{
+  @apply text-primary;
+}
+.react-datepicker{
+  @apply overflow-hidden;
+}
+.react-datepicker__header {
+  background-color: #1a191f;
+}
+
+.react-datepicker__current-month, 
+.react-datepicker-time__header, 
+.react-datepicker-year-header {
+  @apply text-white;
+}
+
+.react-datepicker__day-name, 
+.react-datepicker__day, 
+.react-datepicker__time-name{
+  @apply text-white;
+}
+
+.react-datepicker__day--outside-month{
+  @apply text-gray-500;
+}
+
+.react-datepicker__day:hover,
+.react-datepicker__month-text:hover,
+.react-datepicker__quarter-text:hover,
+.react-datepicker__year-text:hover{
+  @apply text-dark;
+}
+
+.react-datepicker__day--today{
+  @apply bg-white text-gray-800 rounded-md;
+}
+
+.react-datepicker__day--selected {
+  @apply bg-primary ;
+}
+
+.react-datepicker-wrapper{
+  @apply w-full;
+}
+
+.react-datepicker__month-container{
+  @apply bg-dark;
+}
+
+.react-datepicker__input-container input{
+  @apply outline-none border border-gray-500 bg-dark px-2 rounded h-9 w-full;
+}
+
+.pagination li a{
+  @apply h-6 sm:h-8 lg:h-9 w-6 sm:w-8 lg:w-9 rounded-full flex items-center justify-center border border-gray-400;
+}
+
+.pagination li.active a{
+  @apply border-primary;
+}
